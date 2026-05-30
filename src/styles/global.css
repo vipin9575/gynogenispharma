@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&display=swap');
+
+:root {
+  font-family: 'Sarabun', sans-serif;
+  color: #181818;
+  background-color: #fffdfd;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background-color: #fffdfd;
+  font-family: 'Sarabun', sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a,
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+.container {
+  width: min(100% - 64px, 1440px);
+  margin: 0 auto;
+}
+
+@media (max-width: 640px) {
+  .container {
+    width: min(100% - 32px, 1440px);
+  }
+}

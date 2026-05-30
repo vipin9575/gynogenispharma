@@ -1,0 +1,64 @@
+# Logs n
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+.pnp/
+.pnp.js
+
+# Build output
+dist/
+dist-ssr/
+build/
+
+# Vite cache
+.vite/
+
+# Static files cache
+*.cache
+
+# Testing
+coverage/
+*.lcov
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Firebase
+.firebase/
+.firebaserc
+firebase.json
+
+# Miscellaneous
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+*.local
+*.tmp
+*.bak
+
+# GitHub
+.github/
+*.sh
+
+# MacOS
+Thumbs.db
